@@ -953,13 +953,66 @@
 "class": "TPRate",
 "selector": null,
 "is_discrete": false,
-"legend_type": [ "fill", "colour" ],
+"legend_type": "colour",
+"text_size": "9.6pt",
+"title_size": "12pt",
+"entries": [
+ {
+ "polygoncolour": "#000000",
+"polygonfill": "#333333",
+"polygonsize":      0.5,
+"polygonlinetype":        1,
+"polygonalpha":        1,
+"label": "1.00" 
+},
+{
+ "polygoncolour": "#333333",
+"polygonfill": "#333333",
+"polygonsize":      0.5,
+"polygonlinetype":        1,
+"polygonalpha":        1,
+"label": "0.75" 
+},
+{
+ "polygoncolour": "#646464",
+"polygonfill": "#333333",
+"polygonsize":      0.5,
+"polygonlinetype":        1,
+"polygonalpha":        1,
+"label": "0.50" 
+},
+{
+ "polygoncolour": "#9A9A9A",
+"polygonfill": "#333333",
+"polygonsize":      0.5,
+"polygonlinetype":        1,
+"polygonalpha":        1,
+"label": "0.25" 
+},
+{
+ "polygoncolour": "#D3D3D3",
+"polygonfill": "#333333",
+"polygonsize":      0.5,
+"polygonlinetype":        1,
+"polygonalpha":        1,
+"label": "0.00" 
+} 
+] 
+},
+"TDP": {
+ "guide": "legend",
+"geoms": "polygon",
+"title": "TDP",
+"class": "TDP",
+"selector": null,
+"is_discrete": false,
+"legend_type": "fill",
 "text_size": "9.6pt",
 "title_size": "12pt",
 "entries": [
  {
  "polygonfill": "#CD1076",
-"polygoncolour": "#000000",
+"polygoncolour": "#FFFFFF",
 "polygonsize":      0.5,
 "polygonlinetype":        1,
 "polygonalpha":        1,
@@ -967,7 +1020,7 @@
 },
 {
  "polygonfill": "#DF6396",
-"polygoncolour": "#333333",
+"polygoncolour": "#FFFFFF",
 "polygonsize":      0.5,
 "polygonlinetype":        1,
 "polygonalpha":        1,
@@ -975,7 +1028,7 @@
 },
 {
  "polygonfill": "#EE99B8",
-"polygoncolour": "#646464",
+"polygoncolour": "#FFFFFF",
 "polygonsize":      0.5,
 "polygonlinetype":        1,
 "polygonalpha":        1,
@@ -983,7 +1036,7 @@
 },
 {
  "polygonfill": "#F9CCDB",
-"polygoncolour": "#9A9A9A",
+"polygoncolour": "#FFFFFF",
 "polygonsize":      0.5,
 "polygonlinetype":        1,
 "polygonalpha":        1,
@@ -991,7 +1044,7 @@
 },
 {
  "polygonfill": "#FFFFFF",
-"polygoncolour": "#D3D3D3",
+"polygoncolour": "#FFFFFF",
 "polygonsize":      0.5,
 "polygonlinetype":        1,
 "polygonalpha":        1,
